@@ -1,8 +1,9 @@
-// import the orm
+// import the ORM
 var orm = require("../config/orm.js");
 
+// create burger object to call ORM functions with burger specific input
 var burger = {
-   selectAll: function(cb) {
+  selectAll: function(cb) {
     orm.selectAll("burgers", function(res) {
       cb(res);
     });

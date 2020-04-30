@@ -1,12 +1,22 @@
-<div class="burger-div">
+<div class="burger-block">
 	<div class="row">
 		<div class="col-md-7 col-7">
 			{{burger_name}}
 		</div>
 		<div class="col-md-3 col-3">
 			<button class="change-devour btn btn-outline-secondary rounded-0" data-id="{{id}}" data-newdevour="{{devoured}}">
-				{{#if devoured}}Devour It!{{else}}Reorder it!{{/if}}
+				{{!-- 
+					handle bar conditional helper to change button text based
+					based on devoured valued 
+				--}}
+				{{#if devoured}}
+					Reorder it!
+				{{else}}
+					Devour It!
+				{{/if}}
 			</button>
 		</div>
 	</div>
+
+	
 </div>
