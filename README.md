@@ -34,6 +34,7 @@ node server.js
 - node.js - [https://nodejs.org/en/](https://nodejs.org/en/)
 - heroku-cli NPM Package - [https://www.npmjs.com/package/heroku-cli](https://www.npmjs.com/package/heroku-cli)
 - express NPM Package - [https://www.npmjs.com/package/express](https://www.npmjs.com/package/express)
+- express-handlebars NPM Package - [https://www.npmjs.com/package/express-handlebars](https://www.npmjs.com/package/express-handlebars)
 
 <!--
 - node.js - [https://nodejs.org/en/](https://nodejs.org/en/)
@@ -45,8 +46,7 @@ node server.js
 ## Built With
 
 * VS Code - [https://code.visualstudio.com/](https://code.visualstudio.com/)
-* Git Tools - [https://git-scm.com/download](https://git-scm.com/download)
-* Live Markdown Editor - [https://jbt.github.io/markdown-editor/](https://jbt.github.io/markdown-editor/)
+* MySQL - [https://www.mysql.com/](https://www.mysql.com/)
 
 ## Author
 
